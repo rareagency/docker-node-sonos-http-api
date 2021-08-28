@@ -37,7 +37,7 @@ docker run \
   -v `pwd`/clips:/app/static/clips \
   -v `pwd`/cache:/app/cache \
   -v `pwd`/presets:/app/presets \
-  chrisns/docker-node-sonos-http-api
+  rikukissa/rpi-node-sonos-http-api
 ```
 
 If you want to run in a swarm see an example setup here: https://github.com/pinked/clustered_sonos. The important thing is using the *host* networking interface so that it can discover your Sonos devices.
